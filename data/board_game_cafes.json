@@ -1,0 +1,103 @@
+{
+  "cafes": [
+    {
+      "name": "Emerald Tavern Games & Cafe",
+      "city": "Austin",
+      "state": "TX",
+      "address": "9012 Research Blvd, Ste C1, Austin, TX 78758",
+      "description": "Austin's original board game cafe, open since 2013, pairing a library of 100+ tabletop games with gourmet coffee, tea, wine, beer, and pub fare inside an English Tudor-themed space.",
+      "website": "https://emeraldtaverngames.com/",
+      "sourceNote": "Verified via the business's own site (emeraldtaverngames.com), which lists the address and describes the coffee/tea/wine/beer/pub-fare model. Corroborated by its Yelp listing (347 photos, 276 reviews as of Jul 2026) and an Austin Chronicle feature, \"The Best Places to Play Board Games in Austin.\""
+    },
+    {
+      "name": "Vigilante Gastropub & Games",
+      "city": "Austin",
+      "state": "TX",
+      "address": "7010 Easy Wind Dr, Ste 150, Austin, TX 78752",
+      "description": "A gastropub near Crestview Station built around modern board games, with purpose-built gaming tables that include drink holders and meeple trays, a full cocktail bar, and a scratch kitchen.",
+      "website": "https://vigilantebar.com/",
+      "sourceNote": "Address confirmed via the official Wizards of the Coast store locator (locator.wizards.com/store/21862) and cross-checked against Yelp. Business model and food/drink offering confirmed on vigilantebar.com and in Austin Chronicle / Smart City Locating local coverage."
+    },
+    {
+      "name": "Mox Boarding House (Seattle)",
+      "city": "Seattle",
+      "state": "WA",
+      "address": "5105 Leary Ave NW, Seattle, WA 98107",
+      "description": "A 10,000+ sq ft board game store, restaurant, and bar in Ballard, the original Card Kingdom location rebranded as Mox in 2017, offering a free game library, house-made food, and rotating beer taps.",
+      "website": "https://www.moxboardinghouse.com/pages/seattle",
+      "sourceNote": "Verified via moxboardinghouse.com (Seattle location page) and local news coverage of the 2017 Card Kingdom-to-Mox rebrand (My Ballard, Westside Seattle). Address corroborated by its Yelp listing (591 reviews as of Aug 2026)."
+    },
+    {
+      "name": "Meeples Games",
+      "city": "Seattle",
+      "state": "WA",
+      "address": "3727 California Ave SW, Ste 2B, Seattle, WA 98116",
+      "description": "A family-owned tabletop game store and cafe in West Seattle's Alaska Junction, offering a rental game library alongside local food, beer, and wine.",
+      "website": "https://meeplesgames.com/",
+      "sourceNote": "Verified via meeplesgames.com. Corroborated by its Yelp listing (100 reviews) and the West Seattle Chamber of Commerce member directory."
+    },
+    {
+      "name": "The Missing Piece",
+      "city": "Seattle",
+      "state": "WA",
+      "address": "4707 California Ave SW, Ste B, Seattle, WA 98116",
+      "description": "A West Seattle game cafe and lounge with 200+ games free to play, local craft coffee and tea, and made-to-order cafe food, styled as a neighborhood living room for gamers.",
+      "website": "https://www.themissingpiecegames.com/",
+      "sourceNote": "Verified directly via themissingpiecegames.com, which lists the address, hours, and food/game offerings. Corroborated by a West Seattle Blog sponsor announcement (Dec 2020) and Yelp."
+    },
+    {
+      "name": "Raygun Lounge",
+      "city": "Seattle",
+      "state": "WA",
+      "address": "501 E Pine St, Retail B, Seattle, WA 98122",
+      "description": "A Capitol Hill dive bar, pinball arcade, and board game library rolled into one, with large well-lit tables built for tabletop play alongside classic arcade cabinets.",
+      "website": "https://www.raygunlounge.com/",
+      "sourceNote": "Verified via raygunlounge.com and its Wikipedia entry. Address corroborated by Yelp (123 reviews) and the EverOut Seattle venue directory."
+    },
+    {
+      "name": "U Wine Bar",
+      "city": "Seattle",
+      "state": "WA",
+      "address": "4455 Stone Way N, Seattle, WA 98103",
+      "description": "A wine-focused board game bar in Wallingford, pairing a curated list of wine, beer, cider, and mead with a shelf of board games available to play in-house or take home.",
+      "website": null,
+      "sourceNote": "Address and business model verified via the official Wizards of the Coast store locator (locator.wizards.com/store/17665) and the Eat Local First Seattle business directory. Corroborated by Yelp (14 reviews) and The Infatuation's Seattle review. No standalone business website was found (Instagram: @uwinebar); the field is left blank rather than guessed, per sourcing rules."
+    },
+    {
+      "name": "Bonus Round Game Cafe",
+      "city": "Chicago",
+      "state": "IL",
+      "address": "3230 N Clark St, Chicago, IL 60657",
+      "description": "A Lakeview cafe with a curated library of modern board games, staff who teach and recommend titles, and a full menu of coffee, tea, beer, wine, and cocktails.",
+      "website": "https://bonusroundcafe.com/",
+      "sourceNote": "Verified via bonusroundcafe.com. Corroborated by Block Club Chicago's 2021 reopening coverage and the Lakeview East Chamber of Commerce member directory."
+    },
+    {
+      "name": "Athena Board Game Cafe",
+      "city": "Chicago",
+      "state": "IL",
+      "address": "1412 W Lunt Ave, Chicago, IL 60626",
+      "description": "A Rogers Park board game cafe, reopened in late 2024 at the former Heartland Cafe site, serving an elevated comfort-food menu alongside a rotating library of games for a flat cover charge.",
+      "website": "https://www.athenabgc.com/",
+      "sourceNote": "Verified via athenabgc.com (menu, hours, address). Corroborated by Block Club Chicago's November 2024 reopening story and its current Yelp listing."
+    },
+    {
+      "name": "Snakes & Lattes Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "address": "1965 N Milwaukee Ave, Chicago, IL 60647",
+      "description": "A Logan Square/Bucktown board game cafe with 800+ games, a full bar and kitchen, and themed private rooms; the Toronto-based chain took over this space from Cards Against Humanity's original Chicago Board Game Cafe in 2020.",
+      "website": "https://www.snakesandlattes.com/chicago",
+      "sourceNote": "Verified via snakesandlattes.com/chicago for current address, hours, and offerings. The 2020 change of ownership from the original Chicago Board Game Cafe is confirmed via a GlobeNewswire press release, which is why that earlier business name (now closed per Yelp) is not used as the listing name."
+    },
+    {
+      "name": "Stay & Play Game Cafe",
+      "city": "Chicago",
+      "state": "IL",
+      "address": "3932 W Irving Park Rd, Chicago, IL 60618",
+      "description": "A Puerto Rican family-owned cafe in Irving Park pairing 700+ board games with jibaritos, tostones, plantains, and rum-based cocktails.",
+      "website": "https://stayandplaygamecafe.com/",
+      "sourceNote": "Verified via stayandplaygamecafe.com. Corroborated by Block Club Chicago's January 2023 feature story and its Yelp listing."
+    }
+  ]
+}
