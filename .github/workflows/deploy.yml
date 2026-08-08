@@ -1,0 +1,68 @@
+name: Deploy to Hostinger
+
+# Manual trigger only. GitHub-hosted runner IPs are intermittently blocked by
+# Hostinger's WAF on port 65002 (~30% success per attempt, see kineticgain
+# estate-wide precedent in ma-fairs-directory/CLAUDE.md) and Actions minutes
+# are a shared, sometimes-exhausted quota across the account. The reliable
+# path is the local escape hatch: bash scripts/local-sftp-deploy.sh
+# This workflow exists for convenience when it does work, not as the primary path.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: boardgamecafes-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Build + upload the static export to boardgamecafes.directory
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build static export (next build → ./out)
+        run: npm run build
+
+      - name: Verify build output
+        run: |
+          test -f out/index.html || { echo "FAIL: no out/index.html"; exit 1; }
+          echo "Built $(find out -name index.html | wc -l) HTML pages."
+
+      - name: Load SSH key into ssh-agent
+        uses: webfactory/ssh-agent@v0.10.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Seed known_hosts
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          HOST="${FTP_HOST#ftp://}"; HOST="${HOST#sftp://}"; HOST="${HOST%/}"
+          ssh-keyscan -p 65002 -H "$HOST" >> ~/.ssh/known_hosts 2>/dev/null || true
+
+      - name: Deploy out/ → public_html (upload-only, no delete — see feedback_never_prune_remote_with_comm)
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+        run: |
+          set -euo pipefail
+          HOST="${FTP_HOST#ftp://}"; HOST="${HOST#sftp://}"; HOST="${HOST%/}"
+          REMOTE="domains/boardgamecafes.directory/public_html"
+          tar -czf - -C out . | ssh -o StrictHostKeyChecking=accept-new -o ConnectTimeout=30 -o ServerAliveInterval=15 -p 65002 "$FTP_USER@$HOST" \
+            "set -e; cd '$REMOTE' && tar --overwrite -xzf - && echo DEPLOY_EXTRACTED"
