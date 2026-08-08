@@ -10,7 +10,7 @@
       "phone": "(917) 244-8263",
       "googleRating": 5,
       "googleReviewsCount": 2,
-      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, New York metro), categorized by Google as \"Video camera repair service\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, New York metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Video camera repair service\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
     },
     {
       "name": "Camera Doctor",
@@ -22,7 +22,7 @@
       "phone": "(917) 499-1915",
       "googleRating": 4.2,
       "googleReviewsCount": 212,
-      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, New York metro), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, New York metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
     },
     {
       "name": "Nippon Photoclinic and Metro Camera Repair",
@@ -34,31 +34,79 @@
       "phone": "(212) 982-3177",
       "googleRating": 4.4,
       "googleReviewsCount": 137,
-      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, New York metro), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, New York metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
     },
     {
-      "name": "Walters Camera Video & Digital",
-      "city": "Los Angeles",
-      "state": "CA",
-      "address": "811 W Cesar Estrada Chavez Ave, Los Angeles, CA 90012",
+      "name": "Shocked Electronics",
+      "city": "New York",
+      "state": "NY",
+      "address": "209 Ditmas Ave Fl 2, Brooklyn, NY 11218",
       "category": "Camera repair shop",
-      "website": "http://www.walterscamerarepairs.com/",
-      "phone": "(213) 620-1550",
-      "googleRating": 3.7,
-      "googleReviewsCount": 128,
-      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Los Angeles metro), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+      "website": "http://shockedrepairs.com/",
+      "phone": "(718) 633-3331",
+      "googleRating": 4.7,
+      "googleReviewsCount": 161,
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, New York metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". Site confirms \"Professional Camera & Video Equipment Repair\" for DSLR, mirrorless, cinema cameras, camcorders, and lenses. Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
     },
     {
-      "name": "Ross Yerkes Camera Repair",
-      "city": "Los Angeles",
-      "state": "CA",
-      "address": "342 Kirby St, Highland Park, CA 90042",
+      "name": "Brooklyn Film Camera",
+      "city": "New York",
+      "state": "NY",
+      "address": "855 Grand St, Brooklyn, NY 11221",
+      "category": "Camera repair shop",
+      "website": "http://www.brooklynfilmcamera.com/",
+      "phone": "(845) 261-3573",
+      "googleRating": 4.5,
+      "googleReviewsCount": 343,
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, New York metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". Site unreachable during this pass (HTTP 403); included on Google's own \"Camera repair shop\" category tag plus an unambiguous camera-specific business name. Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+    },
+    {
+      "name": "Marty's Camera Repair",
+      "city": "New York",
+      "state": "NY",
+      "address": "60-18 Fresh Pond Rd, Maspeth, NY 11378",
       "category": "Camera repair shop",
       "website": null,
-      "phone": "(323) 256-1018",
-      "googleRating": 4,
-      "googleReviewsCount": 20,
-      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Los Angeles metro), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+      "phone": "(718) 858-8637",
+      "googleRating": 2.5,
+      "googleReviewsCount": 22,
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, New York metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". No working website found; included on Google's own \"Camera repair shop\" category tag plus an unambiguous camera-specific business name. Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+    },
+    {
+      "name": "AZ Spectrum",
+      "city": "New York",
+      "state": "NY",
+      "address": "53-53 62nd St, Maspeth, NY 11378",
+      "category": "Camera repair shop",
+      "website": "http://az-spectrum.com/",
+      "phone": "(718) 779-1892",
+      "googleRating": 4.5,
+      "googleReviewsCount": 2,
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, New York metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". Site confirms electronic repairs and modifications for professional motion-picture/cinema cameras (Arriflex, Aaton, Moviecam). Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+    },
+    {
+      "name": "Panorama Camera",
+      "city": "New York",
+      "state": "NY",
+      "address": "210 W 29th St 3rd floor, New York, NY 10001",
+      "category": "Camera repair shop",
+      "website": null,
+      "phone": "(212) 563-1651",
+      "googleRating": 2.6,
+      "googleReviewsCount": 9,
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, New York metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". No working website found; included on Google's own \"Camera repair shop\" category tag plus a camera-specific business name. Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+    },
+    {
+      "name": "Camera Repair Store",
+      "city": "New York",
+      "state": "NY",
+      "address": "60-18 Fresh Pond Rd, Maspeth, NY 11378",
+      "category": "Camera store",
+      "website": "http://www.cambridgeworld.com/",
+      "phone": "(718) 858-5002",
+      "googleRating": 2.8,
+      "googleReviewsCount": 11,
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, New York metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera store\". Operating name on Google Maps for Cambridge World Inc (cambridgeworld.com); site confirms camera/video repair services and free estimates, in business since 1963. Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
     },
     {
       "name": "Authorized Camera Repair",
@@ -70,7 +118,7 @@
       "phone": "(213) 738-9100",
       "googleRating": 2.9,
       "googleReviewsCount": 7,
-      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Los Angeles metro), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Los Angeles metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
     },
     {
       "name": "Samy's Camera",
@@ -82,7 +130,7 @@
       "phone": "(323) 938-2420",
       "googleRating": 4.3,
       "googleReviewsCount": 1153,
-      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Los Angeles metro), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Los Angeles metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
     },
     {
       "name": "Harry's Camera & Video",
@@ -94,7 +142,7 @@
       "phone": "(818) 763-9750",
       "googleRating": 4.2,
       "googleReviewsCount": 61,
-      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Los Angeles metro), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Los Angeles metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
     },
     {
       "name": "Valley Photo Service",
@@ -106,7 +154,7 @@
       "phone": "(818) 762-0355",
       "googleRating": 4.4,
       "googleReviewsCount": 108,
-      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Los Angeles metro), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Los Angeles metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
     },
     {
       "name": "R & M Camera Specialties",
@@ -118,7 +166,31 @@
       "phone": "(818) 509-1746",
       "googleRating": null,
       "googleReviewsCount": null,
-      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Los Angeles metro), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Los Angeles metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+    },
+    {
+      "name": "Woodland Hills Camera & Telescopes",
+      "city": "Los Angeles",
+      "state": "CA",
+      "address": "5348 CA-27 #101, Woodland Hills, CA 91364",
+      "category": "Camera repair shop",
+      "website": "https://telescopes.net/",
+      "phone": "(818) 347-2270",
+      "googleRating": 4.1,
+      "googleReviewsCount": 236,
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Los Angeles metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". Site unreachable during this pass (HTTP 403); included on Google's own \"Camera repair shop\" category tag plus a camera/telescope-specific business name. Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+    },
+    {
+      "name": "LA Film Camera",
+      "city": "Los Angeles",
+      "state": "CA",
+      "address": "11020 Ventura Blvd # A, Studio City, CA 91604",
+      "category": "Camera store",
+      "website": "https://www.lafilmcamera.com/",
+      "phone": "(818) 732-6644",
+      "googleRating": 4.7,
+      "googleReviewsCount": 33,
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Los Angeles metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera store\". Site advertises \"Fully Serviced Film Camera's\" alongside sales, indicating in-house servicing of the film cameras they carry. Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
     },
     {
       "name": "Professional Camera Repair",
@@ -130,7 +202,7 @@
       "phone": "(713) 621-3627",
       "googleRating": 4.9,
       "googleReviewsCount": 360,
-      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Houston metro), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Houston metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
     },
     {
       "name": "Camera Care Center",
@@ -142,7 +214,7 @@
       "phone": "(713) 521-1441",
       "googleRating": 3.8,
       "googleReviewsCount": 109,
-      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Houston metro), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Houston metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
     },
     {
       "name": "District Camera and Imaging",
@@ -154,7 +226,7 @@
       "phone": "(202) 483-0090",
       "googleRating": 4.6,
       "googleReviewsCount": 1543,
-      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Washington metro), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Washington metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
     },
     {
       "name": "Pro Photo Inc.",
@@ -166,7 +238,7 @@
       "phone": "(202) 223-1292",
       "googleRating": 4.3,
       "googleReviewsCount": 200,
-      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Washington metro), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Washington metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
     },
     {
       "name": "Unique Photo",
@@ -178,7 +250,19 @@
       "phone": "(215) 608-2222",
       "googleRating": 4.5,
       "googleReviewsCount": 252,
-      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Philadelphia metro), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Philadelphia metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+    },
+    {
+      "name": "WebbCam LLC - Photography Digital Camera & Film Shop",
+      "city": "Philadelphia",
+      "state": "PA",
+      "address": "241 N 12th St, Philadelphia, PA 19107",
+      "category": "Camera store",
+      "website": "http://www.webbcam.net/",
+      "phone": "(215) 923-8380",
+      "googleRating": 4.3,
+      "googleReviewsCount": 265,
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Philadelphia metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera store\". Site confirms camera/lens sales plus sensor cleanings and repair/evaluation services for photography gear. Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
     },
     {
       "name": "Kurt's Camera Repair",
@@ -190,7 +274,7 @@
       "phone": "(619) 286-1810",
       "googleRating": 4.7,
       "googleReviewsCount": 189,
-      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, San Diego metro), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, San Diego metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
     },
     {
       "name": "Camera Exposure",
@@ -202,7 +286,7 @@
       "phone": "(619) 356-4495",
       "googleRating": 4.2,
       "googleReviewsCount": 166,
-      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, San Diego metro), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, San Diego metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
     },
     {
       "name": "George's Camera",
@@ -214,7 +298,7 @@
       "phone": "(858) 633-1510",
       "googleRating": 4.7,
       "googleReviewsCount": 552,
-      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, San Diego metro), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, San Diego metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
     },
     {
       "name": "Nelson Photo & Video",
@@ -226,7 +310,7 @@
       "phone": "(619) 234-6621",
       "googleRating": 4.2,
       "googleReviewsCount": 403,
-      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, San Diego metro), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, San Diego metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
     },
     {
       "name": "Service Photo Supply, Inc.",
@@ -238,7 +322,7 @@
       "phone": "(410) 235-6200",
       "googleRating": 4.7,
       "googleReviewsCount": 588,
-      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Baltimore metro), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Baltimore metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
     },
     {
       "name": "Mike's Camera Inc. Denver",
@@ -250,7 +334,43 @@
       "phone": "(303) 733-2121",
       "googleRating": 4.5,
       "googleReviewsCount": 778,
-      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Denver metro), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Denver metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera repair shop\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+    },
+    {
+      "name": "foto forum az",
+      "city": "Phoenix",
+      "state": "AZ",
+      "address": "4834 N 7th St, Phoenix, AZ 85012",
+      "category": "Camera store",
+      "website": "https://larmon.com/",
+      "phone": "(602) 263-0084",
+      "googleRating": 4.5,
+      "googleReviewsCount": 102,
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Phoenix metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera store\". Google Maps business name for Larmon Photo & Foto Forum; site confirms \"Photographic Equipment Repair\" including sensor cleaning. Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+    },
+    {
+      "name": "Arizona Audio- Video Electronics",
+      "city": "Phoenix",
+      "state": "AZ",
+      "address": "3241 E Shea Blvd Ste 8, Phoenix, AZ 85028",
+      "category": "Television repair service",
+      "website": "http://www.azvideoelectronics.com/",
+      "phone": "(602) 953-1623",
+      "googleRating": 4.6,
+      "googleReviewsCount": 74,
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Phoenix metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Television repair service\". Primarily a TV/stereo/VCR repair shop, but site explicitly lists camcorder/video-camera repair as a service line. Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
+    },
+    {
+      "name": "West Photo",
+      "city": "Minneapolis",
+      "state": "MN",
+      "address": "21 University Ave NE, Minneapolis, MN 55413",
+      "category": "Camera store",
+      "website": "http://westphoto.com/",
+      "phone": "(612) 379-2321",
+      "googleRating": 4.4,
+      "googleReviewsCount": 394,
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, camera repair shop search, Minneapolis metro, maxCrawledPlacesPerSearch 50), categorized by Google as \"Camera store\". Not yet independently spot-verified beyond the Maps listing itself -- do that before this data ships to a live camerarepair.directory page."
     }
   ]
 }
