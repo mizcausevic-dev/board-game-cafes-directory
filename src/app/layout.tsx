@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Space_Grotesk, Inter } from "next/font/google";
 import Link from "next/link";
+import { getCities } from "@/lib/hub";
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({
@@ -17,17 +18,19 @@ const inter = Inter({
 
 const SITE_NAME = "Board Game Cafe Directory";
 const SITE_DESCRIPTION =
-  "A curated, honestly-sourced directory of real board game cafes in Austin, Seattle, and Chicago.";
+  "A curated, honestly-sourced directory of real board game cafes across the US.";
 
 export const metadata: Metadata = {
   title: {
-    default: `${SITE_NAME} | Austin, Seattle & Chicago`,
+    default: `${SITE_NAME} | Verified US Cafes`,
     template: `%s | ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const cities = getCities();
+
   return (
     <html lang="en" className={`${spaceGrotesk.variable} ${inter.variable}`}>
       <body className="min-h-screen bg-parchment font-body text-ink antialiased">
@@ -40,16 +43,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 </span>
                 Board Game Cafe Directory
               </Link>
-              <nav className="hidden gap-6 text-sm font-medium sm:flex">
-                <Link href="/austin/" className="hover:text-board">
-                  Austin
-                </Link>
-                <Link href="/seattle/" className="hover:text-board">
-                  Seattle
-                </Link>
-                <Link href="/chicago/" className="hover:text-board">
-                  Chicago
-                </Link>
+              <nav className="hidden flex-wrap justify-end gap-x-5 gap-y-1 text-sm font-medium sm:flex">
+                {cities.map((city) => (
+                  <Link key={city.slug} href={`/${city.slug}/`} className="hover:text-board">
+                    {city.name}
+                  </Link>
+                ))}
               </nav>
             </div>
           </header>

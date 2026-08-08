@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import { getAllCafes, getCities } from "@/lib/hub";
 
 export const metadata: Metadata = {
-  title: "Board Game Cafe Directory | Austin, Seattle & Chicago",
+  title: "Board Game Cafe Directory | Verified US Cafes",
   description:
-    "Find real board game cafes in Austin, Seattle, and Chicago. Every listing is independently sourced and cites where we verified it.",
+    "Find real board game cafes across the US. Every listing is independently sourced and cites where we verified it.",
 };
 
 export default function HomePage() {
@@ -17,7 +17,7 @@ export default function HomePage() {
       <section className="bg-dice-grid border-b-2 border-ink/10">
         <div className="mx-auto max-w-5xl px-6 py-16 sm:py-24">
           <p className="font-display text-sm font-semibold uppercase tracking-[0.2em] text-board">
-            Pilot directory &middot; 3 cities &middot; {cafes.length} cafes
+            {cities.length} cities &middot; {cafes.length} cafes
           </p>
           <h1 className="mt-4 max-w-3xl font-display text-4xl font-bold leading-tight tracking-tight sm:text-5xl">
             Real board game cafes, not a scraped list.
@@ -42,7 +42,7 @@ export default function HomePage() {
       </section>
 
       <section className="mx-auto max-w-5xl px-6 py-16">
-        <h2 className="font-display text-2xl font-bold tracking-tight">Cities in this pilot</h2>
+        <h2 className="font-display text-2xl font-bold tracking-tight">Cities in this directory</h2>
         <div className="mt-8 grid gap-6 sm:grid-cols-3">
           {cities.map((city) => {
             const cityCafes = cafes.filter((c) => c.citySlug === city.slug);
@@ -98,8 +98,9 @@ export default function HomePage() {
                 Built to grow, honestly
               </h3>
               <p className="mt-2 text-sm text-ink/70">
-                This pilot covers 3 cities on purpose. New cities get added only once each cafe
-                in them clears the same verification bar, not before.
+                This started as a 3-city pilot and now covers {cities.length} metros. New cities
+                get added only once each cafe in them clears the same verification bar, not
+                before, which is why most metros we've checked aren&apos;t listed yet.
               </p>
             </div>
           </div>

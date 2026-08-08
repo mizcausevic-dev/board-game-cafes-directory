@@ -98,6 +98,123 @@
       "description": "A Puerto Rican family-owned cafe in Irving Park pairing 700+ board games with jibaritos, tostones, plantains, and rum-based cocktails.",
       "website": "https://stayandplaygamecafe.com/",
       "sourceNote": "Verified via stayandplaygamecafe.com. Corroborated by Block Club Chicago's January 2023 feature story and its Yelp listing."
+    },
+    {
+      "name": "Hex & Company (Upper West Side)",
+      "city": "New York",
+      "state": "NY",
+      "address": "2911 Broadway, New York, NY 10025",
+      "description": "The Upper West Side location of NYC's Hex & Co tabletop cafe chain, combining a full cafe/bar menu with trading card tournaments, D&D and RPG programming, and open board game play.",
+      "website": "http://www.hexnyc.com/",
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, board game cafe search, New York metro). Verified via hexnyc.com, which confirms the food/drink-plus-tabletop model across Hex & Co's Manhattan locations."
+    },
+    {
+      "name": "Hex & Company (Upper East Side)",
+      "city": "New York",
+      "state": "NY",
+      "address": "1462 1st Ave, New York, NY 10075",
+      "description": "The Upper East Side sister location of Hex & Co, offering the same cafe/bar-plus-tabletop-gaming model as the chain's West Side location, with trading card and RPG events.",
+      "website": "http://hexnyc.com/",
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, board game cafe search, New York metro). Verified via hexnyc.com, which lists this as one of Hex & Co's three Manhattan locations."
+    },
+    {
+      "name": "Chaotic Good Cafe",
+      "city": "New York",
+      "state": "NY",
+      "address": "200 W 84th St, New York, NY 10024",
+      "description": "An Upper West Side board game cafe serving specialty coffee, frappes, and treats alongside a board game library, with recurring Mahjong Mondays, D&D sessions, and wine-and-board-game pairing nights.",
+      "website": "https://chaoticgoodcafe.com/",
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, board game cafe search, New York metro). Verified via chaoticgoodcafe.com, which describes the coffee-plus-tabletop-gaming model and its recurring game-night programming."
+    },
+    {
+      "name": "Coral Sword",
+      "city": "Houston",
+      "state": "TX",
+      "address": "1318 Telephone Rd, Houston, TX 77023",
+      "description": "An East End Houston neighborhood board game cafe, co-founded in 2018 by Greenway Coffee's David Buehrer with former Houston Astro Hunter Pence and Ming Chen, serving coffee, tea, beer, wine, and pizza alongside an unlimited board game library.",
+      "website": "http://coralsword.com/",
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, board game cafe search, Houston metro). Corroborated by Houstonia Magazine's 2018 opening feature and Sprudge Coffee's coverage of the cafe's coffee-plus-games model."
+    },
+    {
+      "name": "Board Room",
+      "city": "Washington",
+      "state": "DC",
+      "address": "1737 Connecticut Ave NW, Washington, DC 20009",
+      "description": "A Dupont Circle bar operating since 2012 as \"DC's original board game bar,\" pairing a full craft beer and cocktail program with an extensive game closet of vintage and modern board games plus classic arcade cabinets.",
+      "website": "http://boardroomdc.com/",
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, board game cafe search, Washington DC metro). Corroborated by HuffPost DC's 2013 opening coverage and boardroomdc.com describing the games-plus-bar concept."
+    },
+    {
+      "name": "The Board and Brew",
+      "city": "Philadelphia",
+      "state": "PA",
+      "address": "3200 Chestnut St, Philadelphia, PA 19104",
+      "description": "A University City cafe and restaurant with a large curated board game library spanning party, strategy, and dexterity games, serving breakfast through dinner with specialty coffee, craft beer, and cocktails; playing games carries no fee if you're just there to eat.",
+      "website": "https://theboardandbrew.com/theboardandbrewphiladelphia",
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, board game cafe search, Philadelphia metro). Verified via theboardandbrew.com, which details the full food menu and game-library model."
+    },
+    {
+      "name": "BUBS",
+      "city": "Philadelphia",
+      "state": "PA",
+      "address": "102 W Berks St Retail 1, Philadelphia, PA 19122",
+      "description": "A Kensington board game cafe named for its home under the Berks Street station (Breakfast/Boardgames Under Berks Station), open late as a sober-friendly \"third space\" with light snacks and drinks alongside a rotating board game library.",
+      "website": "http://bubsphl.com/",
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, board game cafe search, Philadelphia metro). Corroborated by boardgamecafebar.com's directory listing and Philadelphia.Today's August 2025 feature on the Kensington opening."
+    },
+    {
+      "name": "Queen & Rook",
+      "city": "Philadelphia",
+      "state": "PA",
+      "address": "123 South St, Philadelphia, PA 19147",
+      "description": "A South Street board game venue with 2,500+ games and staff \"Gamekeepers\" who help guests pick titles, charging per-person admission for timed play sessions alongside a full restaurant menu and bar plus a retro arcade.",
+      "website": "http://queenandrookcafe.com/",
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, board game cafe search, Philadelphia metro). Verified via queenandrookcafe.com, which details the admission-based gaming model, restaurant menu, and bar."
+    },
+    {
+      "name": "Tavern of Tales",
+      "city": "Boston",
+      "state": "MA",
+      "address": "1478 Tremont St, Boston, MA 02120",
+      "description": "A Mission Hill venue billed as \"Boston's Only Board Game Cafe & Bar,\" offering free-play access to a curated game shelf, private soundproofed game rooms with expanded libraries, a full bar and kitchen, and organized D&D, Magic, and trivia events.",
+      "website": "https://www.tavernoftales.com/",
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, board game cafe search, Boston metro). Verified via tavernoftales.com, which brands the venue explicitly as Boston's only board game cafe and bar."
+    },
+    {
+      "name": "The Game Parlour",
+      "city": "San Francisco",
+      "state": "CA",
+      "address": "1342 Irving St, San Francisco, CA 94122",
+      "description": "An Inner Sunset board game cafe offering hundreds of games for a $7 unlimited-play fee, serving a waffle-centric food menu alongside specialty coffee, milkshakes, beer, and wine.",
+      "website": "http://www.thegameparlour.com/",
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, board game cafe search, San Francisco metro). Verified via thegameparlour.com, which details the $7 gaming fee, waffle menu, and coffee/beer/wine bar."
+    },
+    {
+      "name": "No Land Beyond",
+      "city": "Baltimore",
+      "state": "MD",
+      "address": "108 W North Ave, Baltimore, MD 21201",
+      "description": "A Station North board game bar, shop, and event venue with a 300+ game library, a curated craft beer and cocktail program, and a food menu, explicitly inviting guests to \"hang out, eat, drink, and game.\"",
+      "website": "http://nolandbaltimore.com/",
+      "sourceNote": "Sourced from a Google Maps listing (Apify Google Maps Scraper run, board game cafe search, Baltimore metro). Verified via nolandbaltimore.com, which describes the combined game library, bar, and food menu."
+    },
+    {
+      "name": "Game n' Grounds",
+      "city": "Los Angeles",
+      "state": "CA",
+      "address": "21727 Devonshire St, Chatsworth, CA 91311",
+      "description": "A San Fernando Valley cafe in Chatsworth pairing coffee, wine, and beer with a library of 200+ board games, open daily from breakfast through dinner with paninis, crepes, and breakfast fare, plus weekly trivia and open mic nights.",
+      "website": "http://www.gamengrounds.com/",
+      "sourceNote": "Google Maps listing (Apify Google Maps Scraper, deeper follow-up run at maxCrawledPlacesPerSearch 50 after the original Los Angeles pull hit 15/15 with no survivors, board game cafe search). Verified via gamengrounds.com, which confirms the coffee/wine/beer-plus-200+-game-library model, food menu, and Chatsworth address."
+    },
+    {
+      "name": "Forks & Boards",
+      "city": "Phoenix",
+      "state": "AZ",
+      "address": "1818 W Bell Rd Ste 116, Phoenix, AZ 85023",
+      "description": "A veteran-owned North Phoenix restaurant and full bar pairing a largely gluten-free menu with a free, rotating library of tabletop games, plus themed prix-fixe \"Chef's Movie Night\" dinners.",
+      "website": "http://forksandboards.com/",
+      "sourceNote": "Google Maps listing (Apify Google Maps Scraper, deeper follow-up run at maxCrawledPlacesPerSearch 50 after the original Phoenix pull hit 15/15 with no survivors, board game cafe search). Verified via forksandboards.com, which confirms the full-bar/gluten-free-menu-plus-tabletop-game-library model."
     }
   ]
 }
