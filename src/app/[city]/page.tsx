@@ -7,8 +7,9 @@ export function generateStaticParams() {
   return getCities().map((city) => ({ city: city.slug }));
 }
 
-export function generateMetadata({ params }: { params: { city: string } }): Metadata {
-  const city = getCityBySlug(params.city);
+export async function generateMetadata({ params }: { params: Promise<{ city: string }> }): Promise<Metadata> {
+  const { city: citySlug } = await params;
+  const city = getCityBySlug(citySlug);
   if (!city) return {};
   return {
     title: `Board Game Cafes in ${city.name}, ${city.state}`,
@@ -16,8 +17,9 @@ export function generateMetadata({ params }: { params: { city: string } }): Meta
   };
 }
 
-export default function CityPage({ params }: { params: { city: string } }) {
-  const city = getCityBySlug(params.city);
+export default async function CityPage({ params }: { params: Promise<{ city: string }> }) {
+  const { city: citySlug } = await params;
+  const city = getCityBySlug(citySlug);
   if (!city) notFound();
 
   const cafes = getCafesByCity(city.slug);

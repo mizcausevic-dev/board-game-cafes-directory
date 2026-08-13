@@ -10,12 +10,13 @@ export function generateStaticParams() {
   return getAllCafes().map((cafe) => ({ city: cafe.citySlug, slug: cafe.slug }));
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
-  params: { city: string; slug: string };
-}): Metadata {
-  const cafe = getCafeBySlugs(params.city, params.slug);
+  params: Promise<{ city: string; slug: string }>;
+}): Promise<Metadata> {
+  const { city: citySlug, slug } = await params;
+  const cafe = getCafeBySlugs(citySlug, slug);
   if (!cafe) return {};
   return {
     title: `${cafe.name} | ${cafe.city}, ${cafe.state}`,
@@ -23,11 +24,12 @@ export function generateMetadata({
   };
 }
 
-export default function CafePage({ params }: { params: { city: string; slug: string } }) {
-  const city = getCityBySlug(params.city);
+export default async function CafePage({ params }: { params: Promise<{ city: string; slug: string }> }) {
+  const { city: citySlug, slug } = await params;
+  const city = getCityBySlug(citySlug);
   if (!city) notFound();
 
-  const cafe = getCafeBySlugs(params.city, params.slug);
+  const cafe = getCafeBySlugs(citySlug, slug);
   if (!cafe) notFound();
 
   const { streetAddress, addressLocality, addressRegion, postalCode } = parseAddress(cafe.address);
